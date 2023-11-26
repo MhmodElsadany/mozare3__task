@@ -4,13 +4,11 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+screen shots online mode 
+https://github.com/MhmodElsadany/mozare3__task/assets/26444454/cb63c3d6-a453-448a-9531-94e3afdd47b5
+https://github.com/MhmodElsadany/mozare3__task/assets/26444454/9efcdd21-3fe9-4dff-a95f-625b73d3711b
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+screen shots offline mode  (no internet connection ) 
+https://github.com/MhmodElsadany/mozare3__task/assets/26444454/167cd7a3-188a-47ff-bd13-03275e758e21
+https://github.com/MhmodElsadany/mozare3__task/assets/26444454/9efcdd21-3fe9-4dff-a95f-625b73d3711b
