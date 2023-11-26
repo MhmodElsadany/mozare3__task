@@ -42,7 +42,7 @@ Widget listReview(AsyncSnapshot asyncSnapshot) {
       itemBuilder: (BuildContext context, int position) {
         return InkWell(
           onTap: () {
-            _launchURL(asyncSnapshot.data[position].getKey());
+            _launchURL(asyncSnapshot.data[position].key);
           },
           child: ListTile(
             leading: CircleAvatar(
@@ -77,10 +77,8 @@ Widget dialg(String id) {
 
 _launchURL(String urll) async {
   var url = 'https://www.youtube.com/watch/$urll';
-  if (await canLaunch(url)) {
-    await launch(url);
-  } else {
-    throw 'Could not launch $url';
+  if (!await launchUrl(Uri.parse(url))) {
+    throw Exception('Could not launch $url');
   }
 }
 
@@ -121,7 +119,7 @@ Widget listTrail(AsyncSnapshot asyncSnapshot, String poster) {
                     fit: BoxFit.fill,
                   ),
                   onTap: () {
-                    _launchURL(asyncSnapshot.data[position].getKey());
+                    _launchURL(asyncSnapshot.data[position].key);
                   },
                 ),
               ),
